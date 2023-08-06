@@ -1,0 +1,165 @@
+
+
+.left , .right {
+  width: 400px;
+  height: 900px;
+  background: grey;
+}
+
+div.left {
+  float: left;
+
+}
+
+div.right {
+  float: right;
+  position: relative;
+  z-index: -1
+}
+
+div.child {
+  width: 100%;
+  height: 280px;
+  background: #2d2c4e;
+  margin: 0 0 20px 0 ;
+}
+
+div.img {
+  width: 100%;
+}
+
+div.img img {
+  width: 100%;
+}
+
+div.btn {
+  text-align: center;
+}
+
+div.btn button {
+    width: 180px;
+    height: 39px;
+    background: #d1d6ea;
+    color: #10200b;
+    border: none;
+    outline: none;
+    margin-top: 4px;
+}
+
+div.btn button:hover {
+    background: #10200b;
+    color:#d1d6ea ;
+}
+
+div.bottom {
+  width: 400px;
+  height: 300px;
+  background: brown;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+} 
+
+div.bottom div {
+  display: block;
+  margin: 50px;
+  color: white;
+  font-size: 25px;
+  font-family: consolas
+}
+ul {
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:double;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.dad{
+width: auto;
+height: 800px;
+background:url(architect.jpg);
+color: white;
+text-align: center;
+font-size: 50px;
+margin-top: 60px;
+line-height: 850px;
+}
+.photo{
+display: inline-block;
+margin: 20px;
+position: relative;
+}
+.son{
+width: 100px;
+height: 50px;
+background: black;
+color: white;
+position: absolute;
+top: 0px;
+left: 0px;
+line-height: 50px;
+text-align: center;
+}
+.persons{
+width: 350px;
+height: 500px;
+display: inline-block;
+margin: 10px;
+}
+.contact{
+width: 350px;
+height: 50px;
+background: rgba(204, 198, 198, 0.851);
+text-align: center;
+line-height: 50px;
+}
+.contact:hover{
+background: gray;
+}
+.button{
+width: 200px;
+height: 50px;
+background: black;
+color: white;
+text-align: center;
+line-height: 50px;
+margin: 20px;
+}
+.button:hover{
+background: gray;
+}  
+.pic{
+width: auto;
+height: 800px;
+background: url(map.jpg);
+}  
+.power{
+width: auto;
+height: 100px;
+background: black;
+color: white;
+text-align: center;
+line-height: 100px;
+font-size: larger;
+}  
+.text{
+width: 100%;
+height: 20px;
+}
